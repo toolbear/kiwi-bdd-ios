@@ -37,7 +37,7 @@
 		22E7CE7915912F0D00EBFCAA /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		22E7CE7F15912F0D00EBFCAA /* logic-specs-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "logic-specs-Info.plist"; sourceTree = "<group>"; };
 		22E7CE8615912F0D00EBFCAA /* logic-specs-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "logic-specs-Prefix.pch"; sourceTree = "<group>"; };
-		22E7CE931591308F00EBFCAA /* libPods-test.a */ = {isa = PBXFileReference; lastKnownFileType = file; name = "libPods-test.a"; path = "Pods/build/Release-iphoneos/libPods-test.a"; sourceTree = "<group>"; };
+		22E7CE931591308F00EBFCAA /* libPods-test.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libPods-test.a"; path = "Pods/build/Release-iphoneos/libPods-test.a"; sourceTree = "<group>"; };
 		22E7CE961591327D00EBFCAA /* HelloSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HelloSpec.m; sourceTree = "<group>"; };
 		4095C52CE304488998AF0CA3 /* Pods.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
@@ -106,6 +106,7 @@
 		22E7CE5B15912A7700EBFCAA /* kiwi-bdd-ios */ = {
 			isa = PBXGroup;
 			children = (
+				22E7CEA4159134F700EBFCAA /* money */,
 				22E7CE5C15912A7700EBFCAA /* Supporting Files */,
 				22E7CE6415912A7700EBFCAA /* KBDAppDelegate.h */,
 				22E7CE6515912A7700EBFCAA /* KBDAppDelegate.m */,
@@ -127,6 +128,7 @@
 		22E7CE7D15912F0D00EBFCAA /* logic-specs */ = {
 			isa = PBXGroup;
 			children = (
+				22E7CE9F159134B600EBFCAA /* money */,
 				22E7CE7E15912F0D00EBFCAA /* Supporting Files */,
 				22E7CE961591327D00EBFCAA /* HelloSpec.m */,
 			);
@@ -140,6 +142,20 @@
 				22E7CE8615912F0D00EBFCAA /* logic-specs-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		22E7CE9F159134B600EBFCAA /* money */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = money;
+			sourceTree = "<group>";
+		};
+		22E7CEA4159134F700EBFCAA /* money */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = money;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -440,6 +456,7 @@
 				22E7CE8815912F0D00EBFCAA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
