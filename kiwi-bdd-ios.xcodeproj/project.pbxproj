@@ -20,11 +20,11 @@
 		22E7CE5515912A7700EBFCAA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		22E7CE5715912A7700EBFCAA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		22E7CE5915912A7700EBFCAA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		22E7CE5D15912A7700EBFCAA /* kiwi-bdd-ios-Info.plist */ = {isa = PBXFileReference; path = "kiwi-bdd-ios-Info.plist"; sourceTree = "<group>"; };
+		22E7CE5D15912A7700EBFCAA /* kiwi-bdd-ios-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "kiwi-bdd-ios-Info.plist"; sourceTree = "<group>"; };
 		22E7CE5F15912A7700EBFCAA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		22E7CE6115912A7700EBFCAA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		22E7CE6315912A7700EBFCAA /* kiwi-bdd-ios-Prefix.pch */ = {isa = PBXFileReference; path = "kiwi-bdd-ios-Prefix.pch"; sourceTree = "<group>"; };
-		22E7CE6415912A7700EBFCAA /* KBDAppDelegate.h */ = {isa = PBXFileReference; path = KBDAppDelegate.h; sourceTree = "<group>"; };
+		22E7CE6315912A7700EBFCAA /* kiwi-bdd-ios-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "kiwi-bdd-ios-Prefix.pch"; sourceTree = "<group>"; };
+		22E7CE6415912A7700EBFCAA /* KBDAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KBDAppDelegate.h; sourceTree = "<group>"; };
 		22E7CE6515912A7700EBFCAA /* KBDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KBDAppDelegate.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -49,7 +49,9 @@
 				22E7CE5415912A7700EBFCAA /* Frameworks */,
 				22E7CE5215912A7700EBFCAA /* Products */,
 			);
+			indentWidth = 2;
 			sourceTree = "<group>";
+			tabWidth = 2;
 		};
 		22E7CE5215912A7700EBFCAA /* Products */ = {
 			isa = PBXGroup;
@@ -118,6 +120,7 @@
 			attributes = {
 				CLASSPREFIX = KBD;
 				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = BearProg;
 			};
 			buildConfigurationList = 22E7CE4B15912A7700EBFCAA /* Build configuration list for PBXProject "kiwi-bdd-ios" */;
 			compatibilityVersion = "Xcode 3.2";
