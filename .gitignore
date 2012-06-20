@@ -9,7 +9,7 @@ build/*
 *.perspectivev3
 !default.perspectivev3
 *.xcworkspace
-!Give.xcworkspace
+!kiwi-bdd-ios.xcworkspace
 !default.xcworkspace
 xcuserdata
 profile
