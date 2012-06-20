@@ -19,6 +19,7 @@
 		22E7CE7C15912F0D00EBFCAA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22E7CE5715912A7700EBFCAA /* Foundation.framework */; };
 		22E7CE941591308F00EBFCAA /* libPods-test.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 22E7CE931591308F00EBFCAA /* libPods-test.a */; };
 		22E7CE971591327D00EBFCAA /* HelloSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 22E7CE961591327D00EBFCAA /* HelloSpec.m */; };
+		22E7CEA815913E0D00EBFCAA /* MoneySpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 22E7CEA715913E0D00EBFCAA /* MoneySpec.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +40,7 @@
 		22E7CE8615912F0D00EBFCAA /* logic-specs-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "logic-specs-Prefix.pch"; sourceTree = "<group>"; };
 		22E7CE931591308F00EBFCAA /* libPods-test.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libPods-test.a"; path = "Pods/build/Release-iphoneos/libPods-test.a"; sourceTree = "<group>"; };
 		22E7CE961591327D00EBFCAA /* HelloSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HelloSpec.m; sourceTree = "<group>"; };
+		22E7CEA715913E0D00EBFCAA /* MoneySpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoneySpec.m; sourceTree = "<group>"; };
 		4095C52CE304488998AF0CA3 /* Pods.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
@@ -147,6 +149,7 @@
 		22E7CE9F159134B600EBFCAA /* money */ = {
 			isa = PBXGroup;
 			children = (
+				22E7CEA715913E0D00EBFCAA /* MoneySpec.m */,
 			);
 			path = money;
 			sourceTree = "<group>";
@@ -288,6 +291,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				22E7CE971591327D00EBFCAA /* HelloSpec.m in Sources */,
+				22E7CEA815913E0D00EBFCAA /* MoneySpec.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
