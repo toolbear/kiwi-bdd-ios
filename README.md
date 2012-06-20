@@ -1,6 +1,6 @@
 # kiwi-bdd-ios
 
-Starter Xcode project with Kiwi dependency added (using [CocoaPods](http://cocoapods.org)).
+Starter Xcode project with [Kiwi](https://github.com/allending/Kiwi) dependency added (using [CocoaPods](http://cocoapods.org)).
 
 ## Dependencies
 
