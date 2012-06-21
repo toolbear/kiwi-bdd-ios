@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		115AE7741FC84EBEBCFBB0B2 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FF0DB2863184C08A51234BF /* libPods.a */; };
+		22B1E2B81593898C009991B8 /* MoneySpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 22B1E2B71593898C009991B8 /* MoneySpec.m */; };
+		22B1E2BB15938ADD009991B8 /* KBDMoney.m in Sources */ = {isa = PBXBuildFile; fileRef = 22B1E2BA15938ADD009991B8 /* KBDMoney.m */; };
+		22B1E2BC15938B13009991B8 /* KBDMoney.m in Sources */ = {isa = PBXBuildFile; fileRef = 22B1E2BA15938ADD009991B8 /* KBDMoney.m */; };
 		22E7CE5615912A7700EBFCAA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22E7CE5515912A7700EBFCAA /* UIKit.framework */; };
 		22E7CE5815912A7700EBFCAA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22E7CE5715912A7700EBFCAA /* Foundation.framework */; };
 		22E7CE5A15912A7700EBFCAA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22E7CE5915912A7700EBFCAA /* CoreGraphics.framework */; };
@@ -23,6 +26,9 @@
 
 /* Begin PBXFileReference section */
 		1FF0DB2863184C08A51234BF /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		22B1E2B71593898C009991B8 /* MoneySpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoneySpec.m; sourceTree = "<group>"; };
+		22B1E2B915938ADD009991B8 /* KBDMoney.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KBDMoney.h; sourceTree = "<group>"; };
+		22B1E2BA15938ADD009991B8 /* KBDMoney.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KBDMoney.m; sourceTree = "<group>"; };
 		22E7CE5115912A7700EBFCAA /* kiwi-bdd-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "kiwi-bdd-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		22E7CE5515912A7700EBFCAA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		22E7CE5715912A7700EBFCAA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -37,7 +43,7 @@
 		22E7CE7915912F0D00EBFCAA /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		22E7CE7F15912F0D00EBFCAA /* logic-specs-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "logic-specs-Info.plist"; sourceTree = "<group>"; };
 		22E7CE8615912F0D00EBFCAA /* logic-specs-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "logic-specs-Prefix.pch"; sourceTree = "<group>"; };
-		22E7CE931591308F00EBFCAA /* libPods-test.a */ = {isa = PBXFileReference; lastKnownFileType = file; name = "libPods-test.a"; path = "Pods/build/Release-iphoneos/libPods-test.a"; sourceTree = "<group>"; };
+		22E7CE931591308F00EBFCAA /* libPods-test.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libPods-test.a"; path = "Pods/build/Release-iphoneos/libPods-test.a"; sourceTree = "<group>"; };
 		22E7CE961591327D00EBFCAA /* HelloSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HelloSpec.m; sourceTree = "<group>"; };
 		4095C52CE304488998AF0CA3 /* Pods.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
@@ -68,6 +74,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		22B1E2B1159388DC009991B8 /* Money */ = {
+			isa = PBXGroup;
+			children = (
+				22B1E2B71593898C009991B8 /* MoneySpec.m */,
+			);
+			path = Money;
+			sourceTree = "<group>";
+		};
+		22B1E2B415938910009991B8 /* Money */ = {
+			isa = PBXGroup;
+			children = (
+				22B1E2B915938ADD009991B8 /* KBDMoney.h */,
+				22B1E2BA15938ADD009991B8 /* KBDMoney.m */,
+			);
+			path = Money;
+			sourceTree = "<group>";
+		};
 		22E7CE4615912A7700EBFCAA = {
 			isa = PBXGroup;
 			children = (
@@ -106,6 +129,7 @@
 		22E7CE5B15912A7700EBFCAA /* kiwi-bdd-ios */ = {
 			isa = PBXGroup;
 			children = (
+				22B1E2B415938910009991B8 /* Money */,
 				22E7CE5C15912A7700EBFCAA /* Supporting Files */,
 				22E7CE6415912A7700EBFCAA /* KBDAppDelegate.h */,
 				22E7CE6515912A7700EBFCAA /* KBDAppDelegate.m */,
@@ -127,6 +151,7 @@
 		22E7CE7D15912F0D00EBFCAA /* logic-specs */ = {
 			isa = PBXGroup;
 			children = (
+				22B1E2B1159388DC009991B8 /* Money */,
 				22E7CE7E15912F0D00EBFCAA /* Supporting Files */,
 				22E7CE961591327D00EBFCAA /* HelloSpec.m */,
 			);
@@ -264,6 +289,7 @@
 			files = (
 				22E7CE6215912A7700EBFCAA /* main.m in Sources */,
 				22E7CE6615912A7700EBFCAA /* KBDAppDelegate.m in Sources */,
+				22B1E2BB15938ADD009991B8 /* KBDMoney.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,6 +298,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				22E7CE971591327D00EBFCAA /* HelloSpec.m in Sources */,
+				22B1E2B81593898C009991B8 /* MoneySpec.m in Sources */,
+				22B1E2BC15938B13009991B8 /* KBDMoney.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -440,6 +468,7 @@
 				22E7CE8815912F0D00EBFCAA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

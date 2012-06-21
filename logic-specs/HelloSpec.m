@@ -2,7 +2,7 @@ SPEC_BEGIN(HelloSpec)
 
 describe(@"a passing spec", ^{
   it(@"should pass", ^{
-    [[theValue(YES) should] beYes];  
+    [[theValue(YES) should] beYes];
   });
 });
 
